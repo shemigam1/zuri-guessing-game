@@ -5,10 +5,10 @@ console.log(`Hi ${user}`)
 let min = 1
 let max
 max = 5
-let range = `${min} to ${max}`
+let sayRange = `${min} to ${max}`
 let computerGuess = 3
 let userGuess
-userGuess = prompt(`your range is ${range} choose a number: `)
+userGuess = prompt(`your range is ${sayRange} choose a number: `)
 
 let points = 0 
 if (userGuess == computerGuess) {
